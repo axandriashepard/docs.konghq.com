@@ -246,8 +246,10 @@ for incorrect secret types and wrong parameters to the secrets.
 
 ```bash
 kubectl create secret generic missing-password-credential \
-  --from-literal=kongCredType=basic-auth \
-  --from-literal=username=foo
+  --from-literal=username=foo \
+  -o json --dry-run=client | \
+  jq '.metadata.labels |= {"konghq.com/credentials": "basic-auth"}' | \
+  kubectl apply -f -
 ```
 The results should look like this:
 ```
@@ -256,8 +258,10 @@ Error from server: admission webhook "validations.kong.konghq.com" denied the re
 
 ```bash
 kubectl create secret generic wrong-cred-credential \
-  --from-literal=kongCredType=wrong-auth \
-  --from-literal=sdfkey=my-sooper-secret-key
+  --from-literal=sdfkey=my-sooper-secret-key \
+  -o json --dry-run=client | \
+  jq '.metadata.labels |= {"konghq.com/credentials": "wrong-auth"}' | \
+  kubectl apply -f -
 ```
 The results should look like this:
 ```

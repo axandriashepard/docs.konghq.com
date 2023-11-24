@@ -67,9 +67,11 @@ Create two consumers that use different authentication methods:
 
     ```bash
     kubectl create secret generic consumer-1-basic-auth  \
-      --from-literal=kongCredType=basic-auth  \
       --from-literal=username=consumer-1 \
-      --from-literal=password=consumer-1-password
+      --from-literal=password=consumer-1-password \
+      -o json --dry-run=client | \
+      jq '.metadata.labels |= {"konghq.com/credentials": "basic-auth"}' | \
+      kubectl apply -f -
     ```
     The results should look like this:
     ```text

@@ -3,8 +3,10 @@
     {%- assign credName = include.credName | default: 'credential' %}
     ```bash
     kubectl create secret generic {{ credName }} \
-      --from-literal=kongCredType=key-auth  \
-      --from-literal=key={{ key }}
+      --from-literal=key={{ key }} \
+      -o json --dry-run=client | \
+      jq '.metadata.labels |= {"konghq.com/credentials": "key-auth"}' | \
+      kubectl apply -f -
     ```
     The results should look like this:
     ```text

@@ -108,17 +108,21 @@ C6V0e/O3LEuJrP+XrEndtLsCAwEAAQ==
     ```bash
     kubectl create secret \
       generic admin-jwt  \
-      --from-literal=kongCredType=jwt  \
       --from-literal=key="admin-issuer" \
       --from-literal=algorithm=RS256 \
-      --from-literal=rsa_public_key="{{ public_key }}"
+      --from-literal=rsa_public_key="{{ public_key }}" \
+      -o json --dry-run=client | \
+      jq '.metadata.labels |= {"konghq.com/credentials": "jwt"}' | \
+      kubectl apply -f -
     
     kubectl create secret \
       generic user-jwt  \
-      --from-literal=kongCredType=jwt  \
       --from-literal=key="user-issuer" \
       --from-literal=algorithm=RS256 \
-      --from-literal=rsa_public_key="{{ public_key }}"
+      --from-literal=rsa_public_key="{{ public_key }}" \
+      -o json --dry-run=client | \
+      jq '.metadata.labels |= {"konghq.com/credentials": "jwt"}' | \
+      kubectl apply -f -
     ```
 
    The results should look like this:
@@ -281,13 +285,17 @@ httproute.gateway.networking.k8s.io/lime annotated
     ```bash
     kubectl create secret \
       generic admin-acl \
-      --from-literal=kongCredType=acl  \
-      --from-literal=group=admin
+      --from-literal=group=admin \
+      -o json --dry-run=client | \
+      jq '.metadata.labels |= {"konghq.com/credentials": "acl"}' | \
+      kubectl apply -f -
     
     kubectl create secret \
       generic user-acl \
-      --from-literal=kongCredType=acl  \
-      --from-literal=group=user
+      --from-literal=group=user \
+      -o json --dry-run=client | \
+      jq '.metadata.labels |= {"konghq.com/credentials": "acl"}' | \
+      kubectl apply -f -
     ```
     The results should look like this:
     ```text
