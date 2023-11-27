@@ -464,9 +464,7 @@ items:
           url: /plugin-development/pdk/kong.tracing
         - text: kong.vault
           url: /plugin-development/pdk/kong.vault
-          source: /plugin-development/pdk/kong.vault.latest
-          generated: true
-          
+          src: /gateway/plugin-development/pdk/kong.vault.latest
 
         - text: kong.websocket.client
           url: /plugin-development/pdk/kong.websocket.client
