@@ -11,8 +11,10 @@ toc: true
 source_url: https://github.com/Kong/kong/tree/master/kong/pdk/vault.lua
 ---
 <!-- vale off -->
+
 This module can be used to resolve, parse, and verify vault references.
-{% if_version gte:3.4.x %}
+
+{% if_version eq:3.4.x %}
 ## get_subfield(value, key)
 
 This function extracts a subfield from a JSON object.
@@ -303,7 +305,7 @@ local success = rotate_secrets()
 ```
 {% endif_version %}
 
-{% if_version gte:3.3.x %}
+{% if_version gte:3.3.x lte: 3.4.x %}
 ## kong.vault.flush()
 
 Flushes vault config and the references LRU cache.
@@ -407,7 +409,7 @@ Resolves the passed in reference and returns the value of it.
 ``` lua
 local value, err = kong.vault.get("{vault://env/cert/key}")
 ```
-{% if_version gte:3.4.x %}
+{% if_version eq:3.4.x %}
 ## kong.vault.update(options)
 
 Helper function for secret rotation based on TTLs.  Currently experimental.
@@ -490,7 +492,7 @@ local connection, err = kong.vault.try(connect, {
 })
 ```
 
-{% if_version gte:3.4.x %}
+{% if_version eq:3.4.x %}
 
 ## invoke_strategy(strategy, config, parsed_reference)
 
