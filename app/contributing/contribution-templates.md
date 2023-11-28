@@ -1,5 +1,6 @@
 ---
 title: Content templates
+description: Contribute to Kong's plugin documentation with helpful notes and notices. Join our growing community of developers. Learn how to make an impact!
 ---
 
 At Kong, we use the following four standard content types when we write our documentation:
