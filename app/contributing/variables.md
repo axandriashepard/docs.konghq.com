@@ -1,5 +1,6 @@
 ---
 title: Using variables
+description: Ensure seamless collaboration and contribution to user interfaces with Kong Docs. Explore comprehensive variables and guidelines for UI contributions.
 ---
 
 Use variable in content text, links, and in code blocks.
