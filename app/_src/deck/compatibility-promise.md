@@ -1,5 +1,6 @@
 ---
 title: Compatibility Promise
+description: Ensure seamless integration with decK Documentation and Kong's Compatibility Promise for managing APIs. Explore compatibility auditing and dependencies.
 content_type: explanation
 ---
 
