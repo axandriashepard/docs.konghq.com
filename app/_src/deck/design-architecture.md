@@ -1,5 +1,6 @@
 ---
 title: Design & Architecture
+description: Discover decK's advanced design and architecture, API gateway, Kong, decK CLI, configuration management, Declarative YAML, and best practices.
 content_type: explanation
 ---
 
