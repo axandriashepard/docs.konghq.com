@@ -1,5 +1,6 @@
 ---
 title: Single-sourced versions
+descriptions: Learn how to contribute to single sourced plugins for Kong's API platform. Get involved in open source development and make an impact today!
 ---
 
 We use a custom Jekyll plugin (`single_source_generator.rb`) to dynamically generate pages from a single source file. 
