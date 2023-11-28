@@ -1,5 +1,6 @@
 ---
 title: Word choice and naming
+description: Optimize your contributions with effective word choice and variable usage in Kong documentation. Enhance your impact and visibility today!
 ---
 
 Generally:
