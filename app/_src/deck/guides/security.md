@@ -1,5 +1,6 @@
 ---
 title: Securing sensitive data
+description: Ensure data security for your Kong environment with decK Documentation. Safeguard your API gateway configurations from unauthorized access.
 content_type: reference
 ---
 
