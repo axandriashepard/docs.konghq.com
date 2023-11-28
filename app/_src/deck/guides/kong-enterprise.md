@@ -1,5 +1,6 @@
 ---
 title: decK and Kong Gateway (Enterprise)
+description: Experience seamless integration with Kong Enterprise! Simplify your API management with decK documentation. Learn more at Kong Docs today.
 content_type: explanation
 ---
 
