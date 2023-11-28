@@ -1,5 +1,6 @@
 ---
 title: Using Multiple Files to Store Configuration
+description: Discover how to manage Kong Gateway configurations using decK and leverage multiple files to store and apply configuration using Kong Docs.
 content_type: explanation
 ---
 
