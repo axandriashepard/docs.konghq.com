@@ -1,5 +1,6 @@
 ---
 title: Content templates
+description: Ensure seamless contribution to Kong's open-source projects with our diverse range of contribution templates. Start making an impact today! 
 ---
 
 At Kong, we use the following four standard content types when we write our documentation:
