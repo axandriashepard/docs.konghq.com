@@ -1,5 +1,6 @@
 ---
 title: Reusable content
+description: Unlock the full potential of Kong Gateway by contributing reusable content. Learn about contribution and more in our comprehensive documentation.
 ---
 
 In Jekyll, reusable content is managed using [`include`](https://jekyllrb.com/docs/includes/)
