@@ -1,5 +1,6 @@
 ---
 title: Best Practices when using decK
+description: Discover best practices for configuration with the decK documentation. Learn effective strategies for seamless integration. Optimize your API management now!"
 content_type: explanation
 ---
 
