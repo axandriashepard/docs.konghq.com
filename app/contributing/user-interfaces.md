@@ -1,5 +1,6 @@
 ---
 title: Documenting user interfaces
+description: =Learn about contributing to Kong user interfaces and adhere to the style guide for seamless collaboration and consistent visual design.
 content_type: reference
 ---
 
