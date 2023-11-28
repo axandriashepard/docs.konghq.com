@@ -1,5 +1,6 @@
 ---
 title: Hackathons
+decription: Discover how to contribute to Kong's hackathons, join a collaborative community, and showcase your skills in a dynamic developer environment.
 ---
 
 Here, you'll find all the information you need to contribute effectively to our hackathons. 
