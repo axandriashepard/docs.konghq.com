@@ -1,5 +1,6 @@
 ---
 title: Markdown rules and formatting
+description: Elevate your contribution with Kong's Markdown rules and plugin guidelines. Learn how to enhance Kong's ecosystem with your unique expertise.
 ---
 
 ## Markdown front matter
