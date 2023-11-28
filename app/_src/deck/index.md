@@ -1,6 +1,7 @@
 ---
 title: decK
 subtitle: Manage Konnect and Kong Gateway configuration declaratively
+description: Discover powerful Kong decK tools for seamless API configuration and management with this comprehensive documentation. Level up your API management game today!
 content_type: explanation
 ---
 
