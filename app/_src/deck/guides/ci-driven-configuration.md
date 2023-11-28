@@ -1,5 +1,6 @@
 ---
 title: CI-driven Configuration
+description: Learn how to achieve CI-Driven Configuration with decK, keeping your Kong API gateway in sync. Simplify deployment and control with a powerful tool.
 content_type: explanation
 ---
 
