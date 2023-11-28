@@ -1,5 +1,6 @@
 ---
 title: Secret Management with decK
+description: Unlock the power of decK secrets management with Kong Docs. Securely manage and distribute secrets for Kong Gateway using Vault integration.
 content_type: how-to
 ---
 
