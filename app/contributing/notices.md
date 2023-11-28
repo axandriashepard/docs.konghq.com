@@ -1,5 +1,6 @@
 ---
 title: Notes and other notices
+description: Learn about contributing guidelines & notices for Markdown rules in Kong Docs. Discover how to contribute to our open-source community!
 content_type: reference
 ---
 
