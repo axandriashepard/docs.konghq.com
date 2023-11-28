@@ -1,5 +1,6 @@
 ---
 title: De-duplicate Plugin Configuration
+description: Optimize your Kong plugin configuration with decK. Easily manage and deduplicate plugin settings for improved API performance. Learn more now!
 content_type: how-to
 ---
 
