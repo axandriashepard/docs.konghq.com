@@ -1,5 +1,6 @@
 ---
 title: Using decK with Kong Konnect
+description: Konnect and decK Documentation: Manage Kong API Gateway with ease. Learn how to use Konnect with decK for streamlined API management.
 content_type: reference
 ---
 
