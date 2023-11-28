@@ -1,5 +1,6 @@
 ---
 title: Backup and Restore of Kong Gateway's Configuration
+description: Effortlessly restore Kong Gateway configurations with decK documentation. Follow the step-by-step guide for backup and restore processes. Get started now!
 content_type: how-to
 ---
 
