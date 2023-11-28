@@ -1,5 +1,6 @@
 ---
 title: Frequently Asked Questions (FAQs)
+description: Explore FAQs on configuration, deployment, authentication, and more with Kong's decK documentation.
 content_type: reference
 ---
 
