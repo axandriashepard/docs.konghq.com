@@ -1,5 +1,6 @@
 ---
 title: Distributed Configuration for Kong using decK
+description: Optimize your Kong API gateways with decentralized configuration using decK. Manage Kong plugins, routes, services, and consumers effortlessly.
 content_type: explanation
 ---
 
