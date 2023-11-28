@@ -1,5 +1,6 @@
 ---
 title: Run decK with Docker
+description: Learn how to run Kong with Docker using decK. Follow our step-by-step guide for seamless deployment. Get started with Kong and Docker now!
 content_type: how-to
 ---
 
