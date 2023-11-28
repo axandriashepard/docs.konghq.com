@@ -1,5 +1,6 @@
 ---
 title: Style guide
+description: Learn about contributing to Kong's documentation, including single-sourced versions and style guide. Contribute to Kong Docs with clear guidelines.
 ---
 
 <!-- vale off -->
