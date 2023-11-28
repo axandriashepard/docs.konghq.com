@@ -1,5 +1,6 @@
 ---
 title: Conditional rendering
+description: Improve your Kong API management contributions with our guide to conditional rendering. Learn to enhance functionality seamlessly.
 ---
 
 The Kong docs support conditional rendering based on the following:
