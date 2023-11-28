@@ -1,5 +1,6 @@
 ---
 title: Proxy and Test a Service
+meta description: In this guide, you will create, proxy, and test a gateway service using Gateway Manager in Konnect. Create a Konnect Gateway service to proxy your APIs today!
 ---
 
 Create a {{site.konnect_short_name}} Gateway service to proxy your APIs. In this guide, you will create, proxy, and test a gateway service using Gateway Manager in {{site.konnect_short_name}}. 
