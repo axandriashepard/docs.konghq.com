@@ -1,5 +1,6 @@
 ---
 title: Installation Options
+description: Explore Kong's contribution community expectations - learn how to engage, collaborate, and contribute to Kong's open source projects efficiently.
 disable_image_expand: true
 ---
 
