@@ -1,5 +1,6 @@
 ---
 title: Using environment variables with decK
+description: Learn how to use environment variables in decK to configure Kong instances. Explore best practices and examples for managing Kong deployments.
 content_type: how-to
 ---
 
