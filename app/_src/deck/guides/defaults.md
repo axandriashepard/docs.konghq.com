@@ -1,5 +1,6 @@
 ---
 title: Object Defaults
+description: Discover how to manage default configurations in Kong API Gateway with decK Documentation. Learn about global and service-level defaults.
 content_type: how-to
 ---
 
