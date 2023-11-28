@@ -1,5 +1,6 @@
 ---
 title: Get Started with decK
+description: Learn how to get started with decK and streamline your Kong configuration. Explore the step-by-step guide and unleash the power of Kong API Gateway. 
 tag: how-to
 ---
 
